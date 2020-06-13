@@ -15,7 +15,7 @@ user_input = input("Please enter a number between 1 and 100. Enter -99 to stop. 
 # while sentinel value is not stopping value
 while int(float(user_input)) != sv:
     # while user input is not good (in range)
-    if 0 > int(float(user_input)) or int(float(user_input)) > 100:
+    while 0 > int(float(user_input)) or int(float(user_input)) > 100:
         # prompt user for good input
         user_input = input("Please enter a number between 1 and 100. Enter -99 to stop. ")
     else:
