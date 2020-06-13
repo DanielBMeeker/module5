@@ -1,10 +1,12 @@
 """
-Program: while_loop_input_validation
+Program: input_while_exit
 Author: Daniel Meeker
 Date: 06/13/2020
 
 This program will use a while loop to validate user
 input and have a sentinel value to exit the loop.
+It will also allow the user to exit if they have
+no more input to enter.
 """
 # declare a list variable
 user_list = []
